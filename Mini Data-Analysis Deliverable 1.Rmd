@@ -96,7 +96,7 @@ And that is exactly the first thing that you will do!
 *Hint:* This is one of those times when you should think about the cleanliness of your analysis. I added a single code chunk for you below, but do you want to use more than one? Would you like to write more comments outside of the code chunk?
 
 <!-------------------------- Start your work below ---------------------------->
-### 1.building_permits
+### 1. *building_permits*
 ```{r}
 ### EXPLORE HERE ###
 glimpse(building_permits)
@@ -119,7 +119,7 @@ As shown above, there are 20680 rows and 14 columns in the *apt_buildings* datas
 + year                        
 + bi_id   
 
-### 2. flow_sample
+### 2. *flow_sample*
 ```{r}
 glimpse(flow_sample)
 flow_sample %>% head()
@@ -134,7 +134,7 @@ As shown above, there are 218 rows and 7 columns in the *flow_sample* dataset in
 + flow
 + sym
 
-### 3. parking_meters
+### 3. *parking_meters*
 ```{r}
 glimpse(parking_meters)
 parking_meters %>% head()
@@ -164,7 +164,7 @@ As shown above, there are 10032 rows and 22 columns in the *parking_meters* data
 + geo_local_area 
 + meter_id       
 
-### 4. vancouver_trees
+### 4. *vancouver_trees*
 ```{r}
 glimpse(vancouver_trees)
 vancouver_trees %>% head()
@@ -294,7 +294,9 @@ ggplot(data = missing_counts, aes(x = Variable, y = Missing_Count)) +
   coord_flip()
 
 ```
+
 ### Exercise 4
+
 I choose to explore the relationship between the height_range_id and diameter in a plot, because I want to explore the potential relationship between these two factors originally.
 ```{r}
 vancouver_trees %>%
