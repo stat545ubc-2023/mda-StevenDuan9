@@ -162,7 +162,7 @@ comments outside of the code chunk?
 
 <!-------------------------- Start your work below ---------------------------->
 
-### 1.building_permits
+### 1. *building_permits*
 
 ``` r
 ### EXPLORE HERE ###
@@ -223,7 +223,7 @@ are chr, date and dbl respectively. The variables are listed below:
 - year  
 - bi_id
 
-### 2. flow_sample
+### 2. *flow_sample*
 
 ``` r
 glimpse(flow_sample)
@@ -265,7 +265,7 @@ respectively. The variables are listed below:
 - flow
 - sym
 
-### 3. parking_meters
+### 3. *parking_meters*
 
 ``` r
 glimpse(parking_meters)
@@ -341,7 +341,7 @@ which are chr and dbl respectively. The variables are listed below:
 - geo_local_area
 - meter_id
 
-### 4. vancouver_trees
+### 4. *vancouver_trees*
 
 ``` r
 glimpse(vancouver_trees)
@@ -679,9 +679,12 @@ ggplot(data = missing_counts, aes(x = Variable, y = Missing_Count)) +
 ```
 
 ![](Mini-Data-Analysis-Deliverable-1_files/figure-gfm/unnamed-chunk-10-1.png)<!-- -->
-\### Exercise 4 I choose to explore the relationship between the
-height_range_id and diameter in a plot, because I want to explore the
-potential relationship between these two factors originally.
+
+### Exercise 4
+
+I choose to explore the relationship between the height_range_id and
+diameter in a plot, because I want to explore the potential relationship
+between these two factors originally.
 
 ``` r
 vancouver_trees %>%
